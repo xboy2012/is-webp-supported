@@ -1,0 +1,19 @@
+{
+  "name": "is-webp-supported",
+  "version": "1.0.0",
+  "description": "detect whether the browser supports webp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xboy2012/is-webp-supported.git"
+  },
+  "author": "xboy2012",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xboy2012/is-webp-supported/issues"
+  },
+  "homepage": "https://github.com/xboy2012/is-webp-supported#readme"
+}
