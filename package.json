@@ -1,10 +1,30 @@
 {
   "name": "is-webp-supported",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "detect whether the browser supports webp",
-  "main": "index.js",
+  "main": "commonjs/es5/index.js",
+  "module": "module/es7/index.js",
+  "jsnext:main": "module/es7/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel-node src/build/index.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "webp",
+    "image",
+    "img",
+    "support",
+    "is",
+    "google",
+    "useragent"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "rollup": "^1.7.2",
+    "rollup-plugin-babel": "^4.0.3"
   },
   "repository": {
     "type": "git",
