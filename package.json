@@ -1,6 +1,6 @@
 {
   "name": "is-webp-supported",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "detect whether the browser supports webp",
   "main": "commonjs/es5/index.js",
   "module": "module/es7/index.js",
