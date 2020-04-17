@@ -18,8 +18,8 @@ const detect = () => {
 
 export default () => {
   if(!detected) {
-    detected = true
     supported = detect()
+    detected = true
   }
   return supported
 }
